@@ -24,4 +24,9 @@ Route::group([
 	Route::get('dashboard', 'DashboardController@index');
 	Route::get('my-account', 'DashboardController@myAccount');
 	Route::put('my-account', 'DashboardController@updateAccount');
+
+
+	// business 
+
+	//Route::get('business','BusinessController@index');
 });
